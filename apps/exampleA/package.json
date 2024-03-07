@@ -1,0 +1,19 @@
+{
+  "name": "exampleA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "emp dev --env dev",
+    "build": "emp build --env prod",
+    "build:ts": "emp build --env prod -t",
+    "start": "emp serve",
+    "analyze": "emp build --analyze"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@efox/emp": "2.7.1"
+  }
+}
